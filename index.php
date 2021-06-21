@@ -12,52 +12,60 @@
 <body>
     <?php
     echo '<div class="text-black text-9xl text-center"> ';
+    
     echo date('Y');
     echo ' </div>';
 
     ?>
 
     <div class="grid grid-cols-4 ">
-       
-   
+
+
+        <div>
+
             <div>
-                
-                <div>
-                    <?php
+                <?php
 
-                    echo "<div class='grid grid-cols-7 grid-rows-5'>";
+                echo "<div class='grid grid-cols-7 grid-rows-5'>";
 
-                    for ($i = 1; $i <= 30; $i++) {
-                        echo "<div >";
-                        echo $i;
-                        echo ' </div>';
-                        
-                    }
+                for ($i = 1; $i <= 30; $i++) {
+                    echo "<div >";
+                    echo $i;
                     echo ' </div>';
-                    ?>
+                }
+                echo ' </div>';
+                ?>
 
 
-                </div>
             </div>
-            <div>1</div>
-    <div>1</div><div>
-                    <?php
+        </div>
+        <div>1</div>
+        <div>1</div>
+        <div>
+            <?php
 
-                    echo "<div class='grid grid-cols-7 grid-rows-5'>";
+            echo "<div class='grid grid-cols-7 grid-rows-5'>";
 
-                    for ($i = 1; $i <= 30; $i++) {
-                        echo "<div >";
-                        echo $i;
-                        echo ' </div>';
-                        
-                    }
-                    echo ' </div>';
-                    ?>
+            for ($i = 1; $i <= 30; $i++) {
+                echo "<div >";
+                echo $i;
+                echo ' </div>';
+            }
+            echo ' </div>';
+            ?>
 
 
-                </div><div>1</div><div>1</div><div>1</div><div>1</div><div>1</div><div>1</div><div>1</div><div>1</div>
+        </div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+        <div>1</div>
+    </div>
 
-    
 
 </body>
 
