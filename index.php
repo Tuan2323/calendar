@@ -12,10 +12,11 @@
 <body>
     <?php
     echo '<div class="text-black text-9xl text-center"> ';
-    
+
     echo date('Y');
     echo ' </div>';
-
+include 'App\Date\date.php';
+$years = new Years()->getYears();
     ?>
 
     <div class="grid grid-cols-4 ">
